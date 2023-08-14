@@ -5,7 +5,7 @@
 
 The Download methods of Vision-language Continual Pretraining Dataset **P9D (Product 9 Domains)**.
 
-## Introduction
+## 🎨 Introduction
 P9D (Product 9 Domains) is a multimodal dataset that supports the study of Vision-Language Continual Pretraining (VLCP).
 P9D includes more than 1 million image-text pairs of real products. According to the industry name of products, P9D is divided into 9 tasks to sequential training which are **Household, Furnishings, Food, Beauty, Clothing, Auto, Parenting, Outdoor, and Electronics.** These product domains contain different and rich knowledge to support the VLCP. 
 
