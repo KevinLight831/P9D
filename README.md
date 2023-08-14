@@ -1,10 +1,13 @@
 # P9D (Product 9 Domains) 
+[![GitHub](https://img.shields.io/badge/license-MIT-green)](https://github.com/KevinLight831/P9D/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.7-blue.svg?style=flat-square&logo=python&color=3776AB&logoColor=3776AB)](https://www.python.org/)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=KevinLight831.P9D&left_color=green&right_color=red)
 
-The Download methods of Vision-language Continual Pretraining Dataset **P9D**.
+The Download methods of Vision-language Continual Pretraining Dataset **P9D (Product 9 Domains)**.
 
 ## Introduction
-P9D (Product 9 Domains) is a multimodal dataset that support the study of Vision-Language Continual Pretraining (VLCP).
-P9D includes more than 1 million image-text pairs of real products. According to the industry name of products, P9D is divided into 9 tasks to sequential training which are **Household, Furnishings, Food, Beauty, Clothing, Auto, Parenting, Outdoor, and Electronics.** These product domains contain the different and rich knowledge to support the VLCP. 
+P9D (Product 9 Domains) is a multimodal dataset that supports the study of Vision-Language Continual Pretraining (VLCP).
+P9D includes more than 1 million image-text pairs of real products. According to the industry name of products, P9D is divided into 9 tasks to sequential training which are **Household, Furnishings, Food, Beauty, Clothing, Auto, Parenting, Outdoor, and Electronics.** These product domains contain different and rich knowledge to support the VLCP. 
 
 Different from the traditional Class-Incremental Learning (CIL) that divides different tasks according to the narrow category concept, we divide different tasks by product domains covering rich categories to simulate the change of knowledge domain in continual pretraining. 
 
@@ -14,7 +17,7 @@ The P9D contains over 3800 categories and the number of samples in different cat
 
 <p align="center"><img src="figs/distribution.png" alt="distribution" width="400"/></p>
 
-Besides, The P9D dataset has 1,014,599 image-text pairs for training, and 2,846 pairs as the test set of cross-modal retrieval. 4,615 pairs and 46,855 pairs as the query set and gallery set of multi-modal retrieval. 
+Besides, The P9D dataset has 1,014,599 image-text pairs for training and 2,846 pairs as the test set of cross-modal retrieval. 4,615 pairs and 46,855 pairs as the query set and gallery set of multi-modal retrieval. 
 
 <p align="center"><img src="figs/datasplit.png" alt="datasplit" width="400"/></p>
 
@@ -36,11 +39,11 @@ There are two methods to download all images of P9D:
 
 - Method 1： Online download each image
   
-By simply changing the storage path, you can use codes of this codebase to download all images to specified path. 
+By simply changing the storage path, you can use codes of this codebase to download all images to the specified path. 
 ```
 P9D
-├── download_images_train.py # download the images of train set
-├── download_images_test.py # you can use it to download the images of test/query/gallery set
+├── download_images_train.py # Download the images of the train set
+├── download_images_test.py # You can use it to download the images of the test/query/gallery set
 ├── download_images_check.py # In the first download, some images may fail to download and this code can download missing images.
 
 ```
@@ -48,7 +51,7 @@ P9D
 
 - Method 2： Unzip the zip files.
 
-The zip file can be download from this [Baidu Netdisk](https://pan.baidu.com/s/1NXn_5TA53B2gqcHXR-ZFbQ?pwd=ezgk)
+The zip file can be downloaded from this [Baidu Netdisk](https://pan.baidu.com/s/1NXn_5TA53B2gqcHXR-ZFbQ?pwd=ezgk)
 
 
 
@@ -68,4 +71,4 @@ Momentum Contrast and Topology Preservation},
 }
 ```
 ## :panda_face: Contacts
-If you have any question, please contact me :blush: : kevinlight831@gmail.com or hongguang@bjtu.edu.cn.
+If you have any questions, please contact me 🫡 : kevinlight831@gmail.com or hongguang@bjtu.edu.cn.
