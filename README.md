@@ -42,8 +42,8 @@ There are two methods to download all images of P9D:
 By simply changing the storage path, you can use codes of this codebase to download all images to the specified path. 
 ```
 P9D
-├── download_images_train.py # Download the images of the train set
-├── download_images_test.py # You can use it to download the images of the test/query/gallery set
+├── download_images_train.py # Download the images of the train set.
+├── download_images_test.py # You can use it to download the images of the test/query/gallery set.
 ├── download_images_check.py # In the first download, some images may fail to download and this code can download missing images.
 
 ```
@@ -51,7 +51,7 @@ P9D
 
 - Method 2： Unzip the zip files.
 
-The zip file can be downloaded from this [Baidu Netdisk](https://pan.baidu.com/s/1NXn_5TA53B2gqcHXR-ZFbQ?pwd=ezgk)
+The zip file can be downloaded from this [Baidu Netdisk](https://pan.baidu.com/s/1NXn_5TA53B2gqcHXR-ZFbQ?pwd=ezgk).
 
 
 
