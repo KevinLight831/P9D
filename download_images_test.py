@@ -17,7 +17,7 @@ def download_images(train_id_list):
     error_id_list = []
     for item_id in tqdm(train_id_list, ncols=0):
         while(1):
-            oss_url=train_id_info[item_id]["oss_url"]
+            oss_url=train_id_info[item_id]["image_link"]
             image_file=f"{image_prefix}/{item_id}.jpg"
             try:
                 if not os.path.exists(image_file):
