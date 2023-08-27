@@ -27,7 +27,7 @@ def filter_download_images(train_id_list):
         except:
             unopen_id_list.append(item_id)
             while(1):
-                oss_url=train_id_info[item_id]['oss_url']#["image_link"]#
+                oss_url=train_id_info[item_id]["image_link"]
                 image_file=f"{image_prefix}/{item_id}.jpg"
                 flag = 0
                 try:
@@ -75,6 +75,12 @@ if not os.path.exists(image_prefix):
 if __name__ == '__main__':
     train_id_list=list(train_id_info.keys())
     print(len(train_id_list))
+    
+    # #check train
+    # train_id_list = []
+    # for industry in list(train_id_info.keys()):
+    #     train_id_list+=list(train_id_info[industry])
+    # print(len(train_id_list))
 
     thread_num = 50
     chunk_size = int(len(train_id_list) / thread_num)
