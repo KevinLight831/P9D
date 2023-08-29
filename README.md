@@ -71,4 +71,4 @@ Momentum Contrast and Topology Preservation},
 }
 ```
 ## :panda_face: Contacts
-If you have any questions, please contact me 🫡 : kevinlight831@gmail.com or hongguang@bjtu.edu.cn.
+If you have any questions, please contact me : zhuhongguang1103@gmail.com or hongguang@bjtu.edu.cn.
