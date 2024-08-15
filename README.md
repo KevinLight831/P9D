@@ -1,7 +1,7 @@
 # P9D (Product 9 Domains) 
 [![GitHub](https://img.shields.io/badge/license-MIT-green)](https://github.com/KevinLight831/P9D/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg?style=flat-square&logo=python&color=3776AB&logoColor=3776AB)](https://www.python.org/)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=KevinLight831.P9D&left_color=green&right_color=red)
+
 
 The Download methods of Vision-language Continual Pretraining Dataset **P9D (Product 9 Domains)**.
 
